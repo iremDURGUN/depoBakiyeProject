@@ -1,9 +1,10 @@
 import pypyodbc
 
 # depoBakiye DATABASE'ne bağlanılır.
+# Server bilgisine kendi Server bilginizi girmeyi unutmayın!!
 database = pypyodbc.connect(
     "DRIVER={SQL Server};"
-    "Server=DESKTOP-V185J6Q;"
+    "Server=ServerName;"
     "Database=depoBakiye;"
     "Trusted_Connection=True;"
 )
